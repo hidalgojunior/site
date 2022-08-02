@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Boot CSS */
+
+.center{
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.w33{
+    width: 33.3%;
+}
+.w50{
+    width: 50%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+/* Estilização */
+header{
+    background: #D16014;
+    padding: 20px 0;
+}
+
+header .logo{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+}
+.mobile{
+    display: none;
+}
+
+nav.desktop ul {
+    position: relative;
+    top: 5px;
+    list-style-type: none;
+}
+
+nav.desktop li {
+    font-weight: lighter;
+    padding: 0 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+}
