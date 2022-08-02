@@ -90,7 +90,8 @@
     </section>
     <section class="extras">
         <div class="center">
-            <div class="w50 left">
+            <div class="w50 left depoimentos-container">
+                <div class="title">Depoimento dos alunos e ex-alunos</div>
                 <h2>Depoimentos</h2>
                 <div class="depoimentos-single">
                     <p class="depoimento-descricao">Pellentesque sed egestas justo. Nullam at velit orci. Cras vel dolor sit amet tellus efficitur fermentum id ac lorem. Fusce bibendum justo magna, eu accumsan dui vehicula sed. Aenean pulvinar nibh nisi, id sollicitudin augue rutrum vel. </p>
@@ -105,7 +106,7 @@
                     <p class="depoimento-autor">Lorem Ipsum</p>
                 </div><!-- depoimentos-single-->
             </div><!-- w50 -->
-            <div class="w50 left">
+            <div class="w50 left servicos-container">
                 <h2>Serviços</h2>
                 <div class="servicos">
                     <ul>

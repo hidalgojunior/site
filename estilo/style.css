@@ -1,3 +1,11 @@
+:root{
+    --cor1: #141204ff;
+    --cor2: #262a10ff;
+    --cor3: #54442bff;
+    --cor4: #a9714bff;
+    --cor5: #e8985eff;
+}
+
 * {
     margin:0;
     padding: 0;
@@ -37,7 +45,7 @@ img{
 
 /* Estilização */
 header{
-    background: #D16014;
+    background: var(--cor1);
     padding: 20px 0;
 }
 
@@ -45,7 +53,7 @@ header .logo{
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #e2f9b8;
+    color: var(--cor5);
 }
 .mobile{
     display: none;
@@ -58,14 +66,14 @@ nav.desktop ul {
 }
 
 nav.desktop li {
-    font-weight: lighter;
+    font-weight: 300;
     padding: 0 20px;
     text-transform: uppercase;
     display: inline-block;
 }
 
 nav.desktop a{
-    color: #e2f9b8;
+    color: var(--cor5);
     text-decoration: none;
 }
 
@@ -84,7 +92,7 @@ section.banner-principal{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: rgba(209,96,20,0.7);
+    background-color: rgba(20,18,4,0.8);
 }
 
 section.banner-principal form{
@@ -99,8 +107,8 @@ section.banner-principal form{
 }
 
 section.banner-principal form h2{
-    color: #e2f9b8;
-    font-weight: lighter;
+    color: var(--cor5);
+    font-weight: 300;
     letter-spacing: 1px;
     font-size:26px;
     text-align: center;
@@ -112,7 +120,7 @@ section.banner-principal form input[type=email]{
     margin-top: 10px;
     border-radius: 5px;
     border: 0px;
-    color: #313715;
+    color: var(--cor3);
     font-size: 24px;
     padding-left: 20px;
 }
@@ -124,9 +132,9 @@ section.banner-principal form input[type=submit]{
     border-radius: 5px;
     border: 0px;
     cursor: pointer;
-    color: #e2f9b8;
+    color: var(--cor5);
     text-transform: uppercase;
-    background: #D16014;
+    background: var(--cor2);
     font-size: 24px;
     padding-left: 20px;
 }
@@ -138,32 +146,32 @@ section.descricao-autor{
 section.descricao-autor h2{
     font-size: 28px;
     font-weight: 400;
-    color: #313715;
+    color: var(--cor1);
 }
 section.descricao-autor p{
-    color: #313715;
+    color: var(--cor1);
     font-size: 16px;
     text-align: justify;
-    font-weight: 300;
-    margin-top: 14px;
+    font-weight: 500;
+    margin-top: 16px;
     line-height: 20px;
 }
 
 section.descricao-autor h4 a {
-    font-weight: lighter;
-    color:#313715;
+    font-weight: 400;
+    color:var(--cor3);
     cursor: pointer;
     text-decoration: none;
 }
 
 section.especialidades{
     padding: 40px 0;
-    background:#D16014;
+    background:var(--cor2);
 }
 section.especialidades h2.title{
     font-size: 30px;
     font-width: 400;
-    color:#bbce8a;
+    color:var(--cor5);
     text-align: center;
     text-transform: uppercase;
 }
@@ -174,19 +182,97 @@ section.especialidades h2.title{
 }
 
 .box-especialidades h3{
-    color: #bbce8a;
+    color: var(--cor5);
     font-size: 40px;
 }
 .box-especialidades h4{
     font-size: 25px;
-    color: #bbce8a;
+    color: var(--cor5);
 }
 
 .box-especialidades p{
-    color: #bbce8a;
+    color: var(--cor4);
     font-size: 15px;
     margin-top: 10px;
 }
+
+section.extras{
+    padding: 30px 0;
+    background: var(--cor1);
+}
+
+section.extras .title{
+    color:var(--cor4);
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.depoimentos-single{
+    padding: 15px 0;
+    border-bottom: 1px solid var(--cor4);
+}
+section.extras h2{
+    color: var(--cor5);
+}
+p.depoimento-descricao {
+    font-size: 15px;
+    color:var(--cor4);
+    font-weight: 300;
+}
+p.depoimento-autor{
+    font-size: 15px;
+    color:var(--cor4);
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.depoimentos-container, .servicos-container{
+    padding: 0 2%;
+}
+.servicos ul{
+    margin: 20px 0;
+    list-style-position: inside;
+}
+.servicos li{
+    font-size: 15px;
+    margin-bottom: 25px;
+    list-style-position: outside;
+    color: var(--cor4);
+    border-bottom: 1px solid var(--cor5);
+}
+footer{
+    background: var(--cor2);
+    padding: 20px 0;
+}
+footer p{
+    color: var(--cor5);
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+    .w33{
+        padding: 20px;
+        width: 100%;
+    }
+    .box-especialidades{
+        padding: 20px 40px;
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 700px){
     nav.desktop{
         display: none;
@@ -220,26 +306,5 @@ section.especialidades h2.title{
     nav.mobile li a{
         color:#e2f9b8;
         text-decoration: none;
-    }
-}
-
-@media screen and (max-width: 768px){
-    img{
-        float: none !important;
-        display: block;
-        margin: 0 auto;
-        max-width: 500px;
-    }
-    .w50{
-        padding: 20px;
-        width: 100%;
-    }
-    .w33{
-        padding: 20px;
-        width: 100%;
-    }
-    .box-especialidades{
-        padding: 20px 40px;
-        margin: 0;
     }
 }
