@@ -7,6 +7,10 @@
 
 
 /* Boot CSS */
+img{
+    width: 100%;
+    max-width: 400px;
+}
 
 .center{
     max-width: 1200px;
@@ -15,8 +19,10 @@
 }
 .w33{
     width: 33.3%;
+    padding: 0 10px;
 }
 .w50{
+    padding: 0 2%;
     width: 50%;
 }
 .left{
@@ -82,7 +88,7 @@ section.banner-principal{
 }
 
 section.banner-principal form{
-    width: 98%;
+    width: 93%;
     max-width: 600px;
     z-index: 2;
     position: absolute;
@@ -125,4 +131,115 @@ section.banner-principal form input[type=submit]{
     padding-left: 20px;
 }
 
+section.descricao-autor{
+    padding:40px 0;
+}
 
+section.descricao-autor h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #313715;
+}
+section.descricao-autor p{
+    color: #313715;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 14px;
+    line-height: 20px;
+}
+
+section.descricao-autor h4 a {
+    font-weight: lighter;
+    color:#313715;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section.especialidades{
+    padding: 40px 0;
+    background:#D16014;
+}
+section.especialidades h2.title{
+    font-size: 30px;
+    font-width: 400;
+    color:#bbce8a;
+    text-align: center;
+    text-transform: uppercase;
+}
+.box-especialidades{
+    margin: 20px 0;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.box-especialidades h3{
+    color: #bbce8a;
+    font-size: 40px;
+}
+.box-especialidades h4{
+    font-size: 25px;
+    color: #bbce8a;
+}
+
+.box-especialidades p{
+    color: #bbce8a;
+    font-size: 15px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 700px){
+    nav.desktop{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
+
+    .botao-menu-mobile{
+        font-size: 25px;
+        color: #e2f9b8;
+        cursor: pointer;
+    }
+
+    nav.mobile ul{
+        top:55px;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #313715;
+        display: none;
+        text-align: center;
+    }
+    nav.mobile li{
+        display: block;
+        font-size: 17px;
+        border: 1px #D16014 solid;
+        padding: 8px 0;
+    }
+    nav.mobile li a{
+        color:#e2f9b8;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+    .w33{
+        padding: 20px;
+        width: 100%;
+    }
+    .box-especialidades{
+        padding: 20px 40px;
+        margin: 0;
+    }
+}

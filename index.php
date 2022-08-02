@@ -52,7 +52,8 @@
     <section class="descricao-autor">
         <div class="center">
         <div class="w50 left">
-            <h2>Arnaldo Martins Hidalgo Junior</h2>
+            <h2>Arnaldo M. Hidalgo Jr.</h2>
+            <h4>E-mail: <a href="mailto:arnaldo.hidalgo@etec.sp.gov.br">arnaldo.hidalgo@etec.sp.gov.br</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper efficitur scelerisque. Donec et felis sit amet nunc pretium imperdiet a id tortor. Sed id condimentum elit, a rutrum mauris. Mauris at volutpat nunc. Nulla dui mauris, vehicula fermentum ante eu, hendrerit fringilla purus. In tempus, turpis quis eleifend vulputate, ligula tortor feugiat libero, nec cursus ipsum velit id turpis. Aenean condimentum diam et ornare tristique. Donec sed mauris et neque interdum mollis. Donec erat justo, tempor at purus eu, suscipit molestie leo.
             </p>
             <p>
@@ -71,19 +72,20 @@
            <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidades">
                 <h3><i class="fa-brands fa-css3"></i></h3>
-                <h3>CSS3</h3>
-                <p>Pellentesque sed egestas justo. Nullam at velit orci. Cras vel dolor sit amet tellus efficitur fermentum id ac lorem. Fusce bibendum justo magna, eu accumsan dui vehicula sed. Aenean pulvinar nibh nisi, id sollicitudin augue rutrum vel. Suspendisse dictum leo eu risus interdum, in vestibulum nisl laoreet. Duis eleifend pulvinar mauris, ac luctus mauris pretium eu. Etiam rutrum est eu tellus faucibus, a dictum diam porttitor. Ut tristique leo nec blandit sollicitudin.</p>
+                <h4>CSS3</h4>
+                <p>Pellentesque sed egestas justo. Nullam at velit orci. Cras vel dolor sit amet tellus efficitur fermentum id ac lorem. </p>
             </div><!-- box-especialidades -->
             <div class="w33 left box-especialidades">
                 <h3><i class="fa-brands fa-html5"></i></h3>
-                <h3>HTML5</h3>
-                <p>Pellentesque sed egestas justo. Nullam at velit orci. Cras vel dolor sit amet tellus efficitur fermentum id ac lorem. Fusce bibendum justo magna, eu accumsan dui vehicula sed. Aenean pulvinar nibh nisi, id sollicitudin augue rutrum vel. Suspendisse dictum leo eu risus interdum, in vestibulum nisl laoreet. Duis eleifend pulvinar mauris, ac luctus mauris pretium eu. Etiam rutrum est eu tellus faucibus, a dictum diam porttitor. Ut tristique leo nec blandit sollicitudin.</p>
+                <h4>HTML5</h4>
+                <p>Pellentesque sed egestas justo. Nullam at velit orci. Cras vel dolor sit amet tellus efficitur fermentum id ac lorem. </p>
             </div><!-- box-especialidades -->
             <div class="w33 left box-especialidades">
                 <h3><i class="fa-brands fa-php"></i></h3>
-                <h3>PHP</h3>
-                <p>Pellentesque sed egestas justo. Nullam at velit orci. Cras vel dolor sit amet tellus efficitur fermentum id ac lorem. Fusce bibendum justo magna, eu accumsan dui vehicula sed. Aenean pulvinar nibh nisi, id sollicitudin augue rutrum vel. Suspendisse dictum leo eu risus interdum, in vestibulum nisl laoreet. Duis eleifend pulvinar mauris, ac luctus mauris pretium eu. Etiam rutrum est eu tellus faucibus, a dictum diam porttitor. Ut tristique leo nec blandit sollicitudin.</p>
+                <h4>PHP</h4>
+                <p>Pellentesque sed egestas justo. Nullam at velit orci. Cras vel dolor sit amet tellus efficitur fermentum id ac lorem. </p>
             </div><!-- box-especialidades -->
+            <div class="clear"></div>
         </div><!-- center -->
     </section>
     <section class="extras">
