@@ -39,7 +39,7 @@ header .logo{
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
-    color: white;
+    color: #e2f9b8;
 }
 .mobile{
     display: none;
@@ -59,6 +59,6 @@ nav.desktop li {
 }
 
 nav.desktop a{
-    color: white;
+    color: #e2f9b8;
     text-decoration: none;
 }
