@@ -1,9 +1,9 @@
 :root{
-    --cor1: #141204ff;
-    --cor2: #262a10ff;
-    --cor3: #54442bff;
-    --cor4: #a9714bff;
-    --cor5: #e8985eff;
+    --cor5: #ffffffff;
+--cor4: #ff8080ff;
+--cor3red: #ff0000ff;
+--cor2: #800000ff;
+--cor1: #000000ff;
 }
 
 * {
@@ -92,7 +92,7 @@ section.banner-principal{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: rgba(20,18,4,0.8);
+    background-color: rgba(128,0,0,0.8);
 }
 
 section.banner-principal form{
@@ -273,7 +273,7 @@ footer p{
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
     nav.desktop{
         display: none;
     }
