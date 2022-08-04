@@ -33,6 +33,12 @@ img{
     padding: 0 2%;
     width: 50%;
 }
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
 .left{
     float: left;
 }
@@ -229,6 +235,10 @@ p.depoimento-autor{
 
 .depoimentos-container, .servicos-container{
     padding: 0 2%;
+
+}
+.servicos-container{
+    margin-top: 50px;
 }
 .servicos ul{
     margin: 20px 0;
