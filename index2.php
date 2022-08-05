@@ -17,7 +17,7 @@
 	<header>
         <div class="center">
 		<div class="logo left">HOMBRIDADE</div><!-- logo -->
-        <nav class="desktop right">
+        <nav class="desktop right"> 
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="#modulos">Módulos</a></li>
